@@ -13,7 +13,7 @@ Python: 3.10.9 <br />
 Numpy: 1.23.5 <br />
 Pandas:  1.5.3 <br />
 
-# Running BELS
+# Running ML-BELS
 
 To execute the code, ensure that all the code files and the dataset (in .CSV format) are placed within the same folder. In the BELS_test.py file, make sure to include your dataset name using the "dataset_name" variable in the format: dataset_name = "YOUR_DATASET_NAME". After making this change, run the BELS_test.py file.
 
