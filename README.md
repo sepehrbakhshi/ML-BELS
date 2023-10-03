@@ -15,14 +15,14 @@ Pandas:  1.5.3 <br />
 
 # Running ML-BELS
 
-To execute the code, ensure that all the code files and the dataset (in .CSV format) are placed within the same folder. In the Main_missing_labels.py file, make sure to include :
+To execute the code, ensure that all the code files and the dataset (in .CSV format) are placed within the same folder. In the Main_missing_labels.py file, make sure to include the following:
 
-1- your dataset name using the "dataset_name" variable in the format: dataset_name = "YOUR_DATASET_NAME". <br />
-2- missing_percentage variable indicates the missing label perentage, and should be a float between 0 and 1. Zero means that there are no missing labels and one means all labels are missing.<br />
-3- label_count_full variable indicates the number of labels in the dataset. Make sure to enter the number of labels for each dataset before running the code.<br />
-4- chunk_size variable indicates the chunk size.<br />
+1- Your dataset name using the "dataset_name" variable in the format: dataset_name = "YOUR_DATASET_NAME"; <br />
+2- Variable named missing_percentage indicates the missing label perentage, and should be a float between 0 and 1. Zero means that there are no missing labels and one means all labels are missing;<br />
+3- Variable named label_count_full indicates the number of labels in the dataset. Make sure to enter the number of labels for each dataset before running the code;<br />
+4- You can modify the chunk size by changing the chunk_size variable to your desired values.<br />
 
- After making this change, run the Main_missing_labels_clean.py file.
+ After making this change, run the Main_missing_labels.py file.
 
 # Citing ML-BELS
 
