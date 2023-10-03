@@ -15,10 +15,24 @@ Pandas:  1.5.3 <br />
 
 # Running ML-BELS
 
-To execute the code, ensure that all the code files and the dataset (in .CSV format) are placed within the same folder. In the BELS_test.py file, make sure to include your dataset name using the "dataset_name" variable in the format: dataset_name = "YOUR_DATASET_NAME". After making this change, run the BELS_test.py file.
+To execute the code, ensure that all the code files and the dataset (in .CSV format) are placed within the same folder. In the Main_missing_labels.py file, make sure to include :
+
+1- your dataset name using the "dataset_name" variable in the format: dataset_name = "YOUR_DATASET_NAME".
+2- missing_percentage variable indicates the missing label perentage, and should be a float between 0 and 1. Zero means that there are no missing labels and one means all labels are missing.
+3- label_count_full variable indicates the number of labels in the dataset. Make sure to enter the number of labels for each dataset before running the code.
+4- chunk_size variable indicates the chunk size.
+
+ After making this change, run the Main_missing_labels_clean.py file.
 
 # Citing ML-BELS
 
 ```plaintext
-
+@misc{bakhshi2023balancing,
+      title={Balancing Efficiency vs. Effectiveness and Providing Missing Label Robustness in Multi-Label Stream Classification}, 
+      author={Sepehr Bakhshi and Fazli Can},
+      year={2023},
+      eprint={2310.00665},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
