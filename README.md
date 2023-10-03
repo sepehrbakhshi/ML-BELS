@@ -17,10 +17,10 @@ Pandas:  1.5.3 <br />
 
 To execute the code, ensure that all the code files and the dataset (in .CSV format) are placed within the same folder. In the Main_missing_labels.py file, make sure to include :
 
-1- your dataset name using the "dataset_name" variable in the format: dataset_name = "YOUR_DATASET_NAME".
-2- missing_percentage variable indicates the missing label perentage, and should be a float between 0 and 1. Zero means that there are no missing labels and one means all labels are missing.
-3- label_count_full variable indicates the number of labels in the dataset. Make sure to enter the number of labels for each dataset before running the code.
-4- chunk_size variable indicates the chunk size.
+1- your dataset name using the "dataset_name" variable in the format: dataset_name = "YOUR_DATASET_NAME". <br />
+2- missing_percentage variable indicates the missing label perentage, and should be a float between 0 and 1. Zero means that there are no missing labels and one means all labels are missing.<br />
+3- label_count_full variable indicates the number of labels in the dataset. Make sure to enter the number of labels for each dataset before running the code.<br />
+4- chunk_size variable indicates the chunk size.<br />
 
  After making this change, run the Main_missing_labels_clean.py file.
 
